@@ -6,7 +6,7 @@ npm-debug.log
 .idea/
 admin.lock
 server/config/secret.js
-public/upload/
+# public/upload/
 logs/
 dist/
 .cache
