@@ -36,7 +36,7 @@
  module.exports = {
   "session_secret": "doracms_secret",
   "auth_cookie_name": "doracms",
-  "serverPort": 3000,
+  "serverPort": 8080,
   "lang": "zh-CN",
   "languages": [
     "zh-CN",
