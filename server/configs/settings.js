@@ -49,7 +49,7 @@
   "encryptApp_key": "751f621ea8f930",
   "encryptApp_vi": "26247500048718",
   // "mongo_connection_uri": "mongodb://127.0.0.1:27017/doracms2",
-  "mongo_connection_uri": "mongodb://gxsd:gxsd2019@127.0.0.1:27017/doracms2",
+  "mongo_connection_uri": "mongodb://gxsd:guoxingshudao2019@127.0.0.1:27017/doracms2",
   "openqn": false,
   "accessKey": "ZeS04ItPQVfTJIOgefn2wKC1_njJ62n4yB9ujo",
   "secretKey": "LKK2d1je3AuLrA5JKeRdmWKxKfdnaJqK2JMVm7",
