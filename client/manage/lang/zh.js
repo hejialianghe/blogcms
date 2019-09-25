@@ -273,7 +273,7 @@ export default {
     myPower: "我的权限",
     seeDetails: "查看",
     adminUserTotalNum: "管理员总数11",
-    regUserTotalNum: "注册用户",
+    regUserTotalNum: "注册用户11",
     contentsTotalNum: "文档总数",
     messagesTotalNum: "留言总数",
     shortcutOption: "快捷操作",
