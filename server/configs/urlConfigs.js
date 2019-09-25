@@ -10,6 +10,6 @@
 'use strict';
 
  module.exports = {
-    "server_api": "http://127.0.0.1:8080/api/v0",
-  "server_admin_api": "http://127.0.0.1:8080"
+    "server_api": "http://116.236.186.130:3000/api/v0",
+  "server_admin_api": "http://116.236.186.130:3000"
 }
