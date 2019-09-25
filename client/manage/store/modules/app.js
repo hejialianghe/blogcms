@@ -889,9 +889,9 @@ const app = {
       userInfo: {},
       state: false
     }) => {
-      services.getUserSession().then((result) => {
-        commit(types.ADMING_LOGINSTATE, result.data.data)
-      })
+      // services.getUserSession().then((result) => {
+      //   commit(types.ADMING_LOGINSTATE, result.data.data)
+      // })
     },
     showAdminUserForm: ({
       commit
