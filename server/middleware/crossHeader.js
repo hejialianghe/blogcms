@@ -8,8 +8,11 @@
 
 
 module.exports = (req, res, next) => {
-
-    res.header('Access-Control-Allow-Origin', res.header('origin') || '*');
+    var domainName=(req.headers.host.split(':')[0]).toLowerCase()
+    var orginList=['http://127.0.0.1','http://116.236.186.130']
+    if(orginList.includes(domainName)){
+        res.header('Access-Control-Allow-Origin',domainName);
+    }
     res.header('Access-Control-Allow-Headers', 'x-requested-with');
     res.header('Access-Control-Request-Method', 'GET,POST,PUT,DELETE');
     res.header('Access-Control-Allow-Credentials', 'true');

@@ -156,7 +156,7 @@ logUtil.initPath();
 // 初始化日志目录结束
 
 // 设置 express 根目录开始
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));   //设置静态文件位置，把静态文件放在public
 app.use('/admin/static', serve('./admin/static', true))
 app.use('/admin/service-worker.js', serve('./admin/service-worker.js'))
 // 设置 express 根目录结束

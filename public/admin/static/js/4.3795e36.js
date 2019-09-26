@@ -1,1 +1,0 @@
-webpackJsonp([4],{1208:function(n,e){Object.defineProperty(e,"__esModule",{value:!0}),e.default={name:"AuthRedirect",created:function(){var n=window.location.search.slice(1);window.opener.location.href=window.location.origin+"/login#"+n,window.close()}}},131:function(n,e,o){var l=o(6)(o(1208),null,null,null,null);n.exports=l.exports}});

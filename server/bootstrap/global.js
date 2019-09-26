@@ -26,7 +26,6 @@ global.reqJsonData = async (url, params = {}, method = 'get') => {
   try {
 
     let targetUrl = url.indexOf('manage/') == '0' ? (urlConfigs.server_admin_api + '/' + url) : (urlConfigs.server_api + '/' + url);
-
     if (method === 'get') {
       responseData = await Axios.get(targetUrl, {
         params
