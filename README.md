@@ -1,6 +1,5 @@
 # DoraCMS 2.1.3
 
-![DoraCMS](https://www.html-js.cn/upload/images/ueditor/1041325089330696192.png "DoraCMS")
 
 ## 2.1.3 版本更新
 1、优化了代码整体的目录结构 ++[重要]++  
@@ -100,8 +99,9 @@ http://localhost:8080/apidoc
 │
 ├─server    // 服务端目录
 │  │
-│  ├─bootstrap   // 前台渲染相关
-│  │
+│  ├─bootstrap // 前台渲染相关
+   │    ├─global //注册全局公共方法，例如：reqJsonData
+│  │     
 │  ├─configs   // 系统配置
 │  │
 │  ├─locales   // 国际化
@@ -111,10 +111,11 @@ http://localhost:8080/apidoc
 │  │
 │  ├─lib    // 核心层
 │  │  ├─contorller   // 控制器
+│  │  │  ├─api // api处理
 │  │  │
 │  │  ├─model   // 数据模型
 │  │  │
-│  │  ├─service   // 数据库操作
+│  │  ├─service   // 数据库操作相关方法
 │  │  │
 │  │  └─utils
 │  │     ├─cache // redis缓存
@@ -224,12 +225,7 @@ http://localhost:8080
 ### 后台登录
 ```javascript
 http://localhost:8080/dr-admin
-登录账号：doramart/123456    doracms/123456
 ```
-
-## 捐赠
-如果你发现DoraCMS很有用，可以请生哥喝杯咖啡(⊙o⊙)哦
-<img width="650" src="http://cdn.html-js.cn/payme.jpg" alt="">
 
 # LICENSE
 

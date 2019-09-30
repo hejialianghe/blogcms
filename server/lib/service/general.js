@@ -135,7 +135,7 @@ exports._item = async (res, Model, {
     if (query._id && !shortid.isValid(query._id)) {
         throw new Error(res.__('validate_error_params'));
     }
-
+    console.log(query,files,populate)
     return await Model.findOne(query, files).populate(populate).exec();
 
 }
