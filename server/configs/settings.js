@@ -49,7 +49,7 @@
   "encryptApp_key": "751f621ea8f930",
   "encryptApp_vi": "26247500048718",
   // "mongo_connection_uri": "mongodb://127.0.0.1:27017/doracms2",
-  "mongo_connection_uri": "mongodb://gxsd:guoxingshudao2019@127.0.0.1:27017/doracms2?authSource=admin",
+  "mongo_connection_uri": "mongodb://hjl:hejialiang2019@127.0.0.1:27017/doracms2?authSource=admin",
   "openqn": false,
   "accessKey": "ZeS04ItPQVfTJIOgefn2wKC1_njJ62n4yB9ujo",
   "secretKey": "LKK2d1je3AuLrA5JKeRdmWKxKfdnaJqK2JMVm7",
@@ -64,5 +64,5 @@
   "redis_ttl": 12,
   "doracms_api": "http://api.html-js.cn",
   "system_log_path": "./logs/",
-  "upload_path": "/home/wwwroot/default/h5-dev/doracms/webapp/DoraCMS/public/upload"
+  "upload_path": "/home/project/webapp/blogcms/public/upload"
 }
