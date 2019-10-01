@@ -9,7 +9,7 @@
 
 module.exports = (req, res, next) => {
     var domainName=(req.headers.host.split(':')[0]).toLowerCase()
-    var orginList=['http://127.0.0.1','http://116.236.186.130','http://localhost']
+    var orginList=['http://127.0.0.1','http://122.51.11.29','http://localhost']
     if(orginList.includes(domainName)){
         res.header('Access-Control-Allow-Origin',domainName);
     }
