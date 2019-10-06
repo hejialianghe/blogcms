@@ -12,8 +12,8 @@
 const urlConfigsDev =require('./urlConfigs.dev') 
 
 const urlConfigsProd = {
-    "server_api": "http://116.236.186.130:3000/api/v0",
-  "server_admin_api": "http://116.236.186.130:3000"
+    "server_api": "http://122.51.11.29:8080/api/v0",
+  "server_admin_api": "http://122.51.11.29:8080"
 }
 console.log('process.env.NODE_ENV',process.env.NODE_ENV)
  const APIURL=process.env.NODE_ENV==='development'?urlConfigsDev:urlConfigsProd
