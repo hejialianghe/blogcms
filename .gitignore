@@ -1,0 +1,13 @@
+.DS_Store
+package-lock.json
+node_modules/
+npm-debug.log
+.vscode/
+.idea/
+admin.lock
+server/config/secret.js
+public/upload/
+logs/
+dist/
+.cache
+apidoc/
