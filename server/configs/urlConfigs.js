@@ -16,5 +16,6 @@ const urlConfigsProd = {
   "server_admin_api": "http://122.51.11.29:8080"
 }
 console.log('环境变量process.env.NODE_ENV',process.env.NODE_ENV)
- const APIURL=process.env.NODE_ENV==='development'?urlConfigsDev:urlConfigsProd
+//  const APIURL=process.env.NODE_ENV==='development'?urlConfigsDev:urlConfigsProd
+const APIURL=urlConfigsProd
  module.exports = APIURL
