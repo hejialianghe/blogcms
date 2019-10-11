@@ -63,8 +63,9 @@ let systemService = {
             emailContent = siteFunc.setNoticeToUserGetMessageCode(res, sysConfigs, obj);
             toEmail = obj.email;
         }
-
+        
         // 发送邮件
+        console.log('邮件配置',sysConfigs.siteEmailServer,systemService.decrypt(sysConfigs.siteEmailPwd, settings.encrypt_key))
         let transporter = nodemailer.createTransport({
 
             service: sysConfigs.siteEmailServer,

@@ -1757,10 +1757,14 @@ exports.sendVerificationCode = async (req, res) => {
                 isPaging: '0'
             });
             if (!_.isEmpty(systemConfigs)) {
-                (process.env.NODE_ENV == 'production') && service.sendEmail(req, res, systemConfigs[0], emailTypeKey.email_sendMessageCode, {
+                // (process.env.NODE_ENV == 'production') && service.sendEmail(req, res, systemConfigs[0], emailTypeKey.email_sendMessageCode, {
+                //     email: email,
+                //     renderCode: currentStr
+                // })
+             service.sendEmail(req, res, systemConfigs[0], emailTypeKey.email_sendMessageCode, {
                     email: email,
                     renderCode: currentStr
-                })
+                }) 
             } else {
                 throw new Error(res.__('validate_error_params'));
             }

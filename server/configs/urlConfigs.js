@@ -12,7 +12,7 @@
 const urlConfigsDev =require('./urlConfigs.dev') 
 
 const urlConfigsProd = {
-    "server_api": "http://122.51.11.29:8080/api/v0",
+  "server_api": "http://122.51.11.29:8080/api/v0",
   "server_admin_api": "http://122.51.11.29:8080"
 }
 console.log('我的环境环境变量process.env.NODE_ENV',process.env.NODE_ENV)
