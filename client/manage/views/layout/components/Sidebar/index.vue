@@ -10,7 +10,7 @@
       active-text-color="#409EFF"
     >
       <div class="dora-logo">
-        <router-link :to="{path: '/dashboard'}"><img src="../../../../assets/images/doracms-logo.png" alt="DoraCMS内容管理系统" /></router-link>
+        <router-link :to="{path: '/dashboard'}">MAYIWU</router-link>
         </div>
       <sidebar-item v-for="route in permission_routers" :key="route.name" :item="route" :base-path="route.path"/>
     </el-menu>
@@ -33,8 +33,12 @@ export default {
 </script>
 <style lang="scss">
 .dora-logo {
-  img {
+  a {
     width: 100%;
+    font-size:25px;
+    text-align: center;
+    color:#1f8dff;
+    padding: 10px 0;
   }
 }
 </style>

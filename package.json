@@ -133,7 +133,7 @@
     "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^0.11.1",
     "friendly-errors-webpack-plugin": "^1.6.1",
-    "gulp": "^4.0.2",
+    "gulp": "3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^7.0.1",
     "gulp-minify-css": "^1.2.4",

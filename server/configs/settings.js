@@ -32,7 +32,7 @@
 
 
 'use strict';
-
+const isProd = process.env.NODE_ENV === 'production'
  module.exports = {
   "session_secret": "doracms_secret",
   "auth_cookie_name": "doracms",
@@ -48,8 +48,8 @@
   "salt_md5_key": "dora",
   "encryptApp_key": "751f621ea8f93000",
   "encryptApp_vi": "2624750004871800",
-  // "mongo_connection_uri": "mongodb://127.0.0.1:27017/doracms2",
-  "mongo_connection_uri": "mongodb://hjl:hejialiang2019@127.0.0.1:27017/doracms2",
+  "mongo_connection_uri": isProd?"mongodb://hjl:hejialiang2019@127.0.0.1:27017/doracms2" :"mongodb://127.0.0.1:27017/doracms2",
+  // "mongo_connection_uri": "mongodb://hjl:hejialiang2019@127.0.0.1:27017/doracms2",
   "openqn": false,
   "accessKey": "ZeS04ItPQVfTJIOgefn2wKC1_njJ62n4yB9ujo",
   "secretKey": "LKK2d1je3AuLrA5JKeRdmWKxKfdnaJqK2JMVm7",

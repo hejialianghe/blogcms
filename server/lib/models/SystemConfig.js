@@ -14,9 +14,9 @@ var SystemConfigSchema = new Schema({
         'default': shortid.generate
     },
     date: { type: Date, default: Date.now },
-    siteName: { type: String, default: '前端开发俱乐部' },
+    siteName: { type: String, default: '蚂蚁屋' },
     ogTitle: { type: String, default: '' },
-    siteDomain: { type: String, default: 'https://www.html-js.cn' },
+    siteDomain: { type: String, default: 'http://122.51.11.29:8080' },
     siteDiscription: { type: String, default: '前端开发' },
     siteKeywords: String,
     siteAltKeywords: String, // 标签内的alt关键字

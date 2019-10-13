@@ -83,7 +83,7 @@ nodeTask();
 app.set('view engine', 'html');
 
 // SITE_FAVICON_BEGIN
-app.use(favicon('./favicon.ico'))
+// app.use(favicon('./favicon.ico'))
 // SITE_FAVICON_END
 
 app.use(compression({
