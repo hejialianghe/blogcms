@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"doracms2.classpayrecords"},{"v":{"$numberInt":"2"},"key":{"user":{"$numberInt":"1"}},"name":"user_1","ns":"doracms2.classpayrecords","background":true}],"uuid":"b369b3e00b784865a245f7d7861fd12f"}
