@@ -10,7 +10,7 @@
       active-text-color="#409EFF"
     >
       <div class="dora-logo">
-        <router-link :to="{path: '/dashboard'}">MAYIWU</router-link>
+        <router-link :to="{path: '/dashboard'}">YOULIAOWU</router-link>
         </div>
       <sidebar-item v-for="route in permission_routers" :key="route.name" :item="route" :base-path="route.path"/>
     </el-menu>
