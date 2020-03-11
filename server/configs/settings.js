@@ -36,7 +36,7 @@ const isProd = process.env.NODE_ENV === 'production'
  module.exports = {
   "session_secret": "doracms_secret",
   "auth_cookie_name": "doracms",
-  "serverPort": 1002,
+  "serverPort": 8080,
   "lang": "zh-CN",
   "languages": [
     "zh-CN",
