@@ -17,9 +17,7 @@
         {% for item in targetAds.items %} {%set activeImg = ''%} {% if loop.index0 == 0 %} {%set activeImg ='active'%}
         {% endif %}
         <div class="{{'item ' + activeImg}}">
-            <a href="{{item.link}}" target="_blank">
                 <img src="{{item.sImg}}" alt="{{item.title}}">
-            </a>
             <div class="carousel-caption">
                 <h3>{{item.alt}}</h3>
             </div>

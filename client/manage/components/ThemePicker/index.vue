@@ -1,6 +1,6 @@
 <template>
   <el-color-picker
-    v-model="theme"
+    v-="theme"
     class="theme-picker"
     popper-class="theme-picker-dropdown"/>
 </template>

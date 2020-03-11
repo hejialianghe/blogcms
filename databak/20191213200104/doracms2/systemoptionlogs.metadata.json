@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"doracms2.systemoptionlogs"}],"uuid":"4d849ea80d1a4b22a6568adc8b3d350a"}

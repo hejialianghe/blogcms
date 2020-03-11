@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"doracms2.walletaddresses"},{"v":{"$numberInt":"2"},"key":{"wallet":{"$numberInt":"1"}},"name":"wallet_1","background":true,"ns":"doracms2.walletaddresses"}],"uuid":"037ff368efe242ec80fac3279d3b5941"}

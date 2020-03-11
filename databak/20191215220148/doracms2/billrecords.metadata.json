@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"doracms2.billrecords"},{"v":{"$numberInt":"2"},"key":{"user":{"$numberInt":"1"},"type":{"$numberInt":"1"}},"name":"user_1_type_1","background":true,"ns":"doracms2.billrecords"}],"uuid":"0bab6df2e5b4483ba478811ac31026f0"}

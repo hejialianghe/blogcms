@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"doracms2.presentauditreviews"},{"v":{"$numberInt":"2"},"key":{"askSec":{"$numberInt":"-1"},"askRmb":{"$numberInt":"-1"}},"name":"askSec_-1_askRmb_-1","ns":"doracms2.presentauditreviews","background":true}],"uuid":"f73e3e85dd6a41388258f04db6ed1213"}
